@@ -1,0 +1,46 @@
+.storage_unit {
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+}
+
+.small {
+    width: 20px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.medium {
+    width: 30px;
+    height: 60px;
+}
+
+.large {
+    width: 40px;
+    height: 60px;
+}
+
+.occupied {
+    background: green;
+}
+
+.vacant {
+    background: red;
+}
+
+.building {
+    border-color: cornflowerblue;
+    border-width: 1px;
+    border-style: solid;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.building_title {
+    padding-top: 30px;
+}
+
+#location_section {
+    padding-top: 50px;
+}
