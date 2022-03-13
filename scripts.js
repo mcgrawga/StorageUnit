@@ -28,7 +28,7 @@ $(document).ready(function() {
         const buildingId = $('#inputBuildingId').val();
         const unitId = $('#inputUnitId').val();
 
-        // Update the modified storage unit in dataset
+        // Update the modified storage unit in the sdataset
         $.get("http://localhost:3000/users/1", function(user) {
             for (const location of user.locations) {
                 if (location.id === parseInt(locationId)) {
